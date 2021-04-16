@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Boostrap Site</title>
+    <meta name="viewport" content="width=divice-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link href="https://bootswatch.com/3/superhero/bootstrap.min.css"
+              rel="stylesheet" type="text/css">
+        
+    <style>
+        .panel-primary>.panel-heading{border-radius: 10px}
+.thumb {padding: 60px 10px; text-align: center; background: #ddd;}
+
+.thumb:nth-child(even) {background: #eee;}
+h1,h2 {margin: 30px 0;}
+
+        .container-fluid, .container {;}
+
+</style>
+
+
+</head>
+    
+<body>
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/index.html" class="navbar-brand">AWESOME TRAINING</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            </div>
+                
+            <div class="collapse navbar-collapse" id="mydropdown"> 
+                
+            <ul class="nav navbar-nav">
+                    <li><a href="#">Ninja Training</a></li>
+                    <li class="active"><a href="#">Wizard Training</a></li>
+                    <li><a href="#">Phychic Training</a></li>
+                    <li><a href="#">Coding Training</a></li>
+                </ul>
+                
+                
+                    <button class="btn btn-default navbar-btn navbar-right"
+                            style="margin-left: 10px">
+                        Inbox <span class="label label-danger">NEW</span>
+                </button>
+                <button class="btn btn-default navbar-btn navbar-right">
+                    Notifications <span class="badge" style="background:#d9534f">20</span>
+                </button>
+                
+                </div>   
+                </div>
+            </nav>
+        <div class="container">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
+    
+        <div class="carousel slide" id="myslidder" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myslider" data-slide-to="0" class="active"></li>
+                <li data-target="#myslider" data-slide-to="1"></li>
+                <li data-target="#myslider" data-slide-to="2"></li>
+            
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="da1.jpg">
+                    <div class="carousel-caption">
+                        <h2>Yo ninjas, let's kick some coding ass!</h2>
+                    </div>
+                    </div>
+                <div class="item">
+                    <img src="da2.jpg">
+                    <div class="carousel-caption">
+                        <h2>Yo ninjas, let's kick some coding ass!</h2>
+                    </div>
+                    </div>
+                <div class="item">
+                    <img src="da3.jpg">
+                    <div class="carousel-caption">
+                        <h2>Yo ninjas, let's kick some coding ass!</h2>
+                    </div>
+                    </div>
+                </div>
+            <a class="left carousel-control" href="#myslider" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myslider" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+</div>
+</div>
+            
+            <div class="container" style="padding-top: 60px;">
+                
+                
+                <div class="panel-group" id="myaccordian">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-target="#panel-1" data-toggle="collapse"
+                                data-parent="#myaccordian">Ninja Training</h3>
+                        </div>
+                        <div class="panel-collapse collapse" id="panel-1">
+                            <div class="panel-body">
+                                <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                            </div>
+                            </div>
+                         </div>
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-target="#panel-2" data-toggle="collapse"
+                                data-parent="#myaccordian">Wizard Training</h3>
+                        </div>
+                        <div class="panel-collapse collapse" id="panel-2">
+                            <div class="panel-body">
+                                <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                            </div>
+                            </div>
+                         </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-target="#panel-3" data-toggle="collapse"
+                                data-parent="#myaccordian">Coding Training</h3>
+                        </div>
+                        <div class="panel-collapse collapse" id="panel-3">
+                            <div class="panel-body">
+                                <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                            </div>
+                            </div>
+                         </div>
+                    
+                    </div>
+                
+                
+                
+                
+                </div>
+                
+            
+            
+                <div class="modal" id="mymodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">x</button>
+                                <h2 class="modal-title">How to be a badass ninja!</h2>
+                            </div>
+                        <div class="modal-body">
+                            <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                            <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                            <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+           </div>
+            
+        <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
+            <div class="row" style="padding-top: 60px;">
+                <div class="col-xs-6 col-sm-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">Ninja</h1>
+                        </div>
+                        <div class="panel-body">
+                    <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                </div>
+                    <div class="panel-footer">
+                        <a href="#"
+                           data-toggle="modal"
+                           data-target="#mymodal">More info...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">Ninja</h1>
+                        </div>
+                        <div class="panel-body">
+                    <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                </div>
+                    <div class="panel-footer">
+                        <a href="#">More info...</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+           <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">Ninja</h1>
+                        </div>
+                        <div class="panel-body">
+                    <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                </div>
+                    <div class="panel-footer">
+                        <a href="#">More info...</a>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-xs-6 col-sm-3">
+             <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">Ninja</h1>
+                        </div>
+                        <div class="panel-body">
+                    <p>Donec eget auctor tellus, et tincidunt velit. Quisque consectetur sollicitudin viverra. In commodo nisl ut euismod congue. Nullam at risus molestie, elementum sapien sit amet, bibendum justo.</p>
+                </div>
+                    <div class="panel-footer">
+                        <a href="#">More info...</a>
+                        </div>
+                    </div>
+            </div>
+    </div>
+    </div>
+        
+        <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
+        <div class="col-xs-6" style="padding-top: 30px">
+        
+            <form>
+                <div class="form-group">
+                <label for="name" class="sr-only">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Name"/>
+                </div>
+            
+                 <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="Email"/>
+                </div>
+                
+                <div class="form-group">
+                <label class="checkbox-inline">
+                <input type="checkbox">
+                    Ninja Training
+                    </label>
+                    
+                <label class="checkbox-inline">
+                    <input type="checkbox">
+                    Wizard Training
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <label class="radio-inline">
+                        <input type="radio" name="gender">
+                        Male
+                    </label>
+                
+                <label class="radio-inline">
+                    <input type="radio" name="gender">
+                    Female
+                    </label>
+                </div>
+            
+                
+        <input type="submit" value="send" class="btn btn-primary">
+           
+            </form>
+        
+        </div>
+    </div>
+    
+        <div class="container" style="padding-top: 30px">
+            
+            <div class="row" >
+                <div class="col-xs-12">
+                        <div class="jumbotron">
+                            <div class="container">
+                    <h1>Smokey Bacon</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et arcu id quam ullamcorper malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nunc augue, ornare sit amet aliquet et, cursus commodo mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse nec dictum sapien, a pellentesque enim. Mauris consequat elit metus, condimentum bibendum felis congue gravida. Pellentesque porta tristique ante, eu feugiat elit ultricies pellentesque. Phasellus nec mattis odio. Pellentesque eleifend turpis sed dignissim tempus. Nullam nisi neque, consectetur vitae pharetra non, feugiat non lacus. Quisque vitae dictum orci.</p>
+                            </div>
+                                                 
+                </div>
+            </div>
+            </div>
+            </div>
+    </div>
+                                                
+
+            
+    
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+                
+
+        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script>
+           $(function(){
+               $('[data-toggle="tooltip"]').tooltip();
+               $('.carousel').carousel({
+                   interval: 1000,
+                   pause: false,
+                   wrap: false,
+                   keyboard: true
+               });
+           });
+    
+    </script>
+    </body>
+</html>
+    
